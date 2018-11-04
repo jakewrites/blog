@@ -126,6 +126,10 @@ h6 {
 }
 
 /* Animation front page */
+
+@media (min-width:667px){
+    
+
     
 .content {
   position: absolute;
@@ -237,6 +241,7 @@ h6 {
     -webkit-transform: translate3d(0, -25%, 0);
             transform: translate3d(0, -25%, 0);
   }
+}
 }
 
 
