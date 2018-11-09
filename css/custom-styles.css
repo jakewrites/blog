@@ -65,10 +65,16 @@ background-color: #b2cecf;
 }
 
 .home-header {
-
   display: none;
- 
 }
+    .masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  display:table;
+    }
 
 h1,
 h2,
