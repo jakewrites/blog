@@ -64,13 +64,10 @@ background-color: #b2cecf;
     font-weight: 600;
 }
 
-.masthead {
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 2rem;
+.home-header {
+
+  display: none;
+ 
 }
 
 h1,
@@ -129,7 +126,14 @@ h6 {
 
 @media (min-width:667px){
     
-
+    .home-header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  display:table;
+    }
     
 .content {
   position: absolute;
